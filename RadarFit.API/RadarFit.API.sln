@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadarFit.API", "RadarFit.API.csproj", "{DA0986D7-2750-4DB2-8D3D-AF53561E9DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadarFit.DAO", "..\RadarFit.DAO\RadarFit.DAO.csproj", "{26A40587-1CC3-4A21-B737-23E598B3DBB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadarFit.BLL", "..\RadarFit.BLL\RadarFit.BLL.csproj", "{830F8FC1-4927-4BE1-80BC-10DEF24313CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadarFit.MODEL", "..\RadarFit.MODEL\RadarFit.MODEL.csproj", "{6D58B7CA-BE30-4D06-B318-EF21F7439339}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA0986D7-2750-4DB2-8D3D-AF53561E9DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0986D7-2750-4DB2-8D3D-AF53561E9DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0986D7-2750-4DB2-8D3D-AF53561E9DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0986D7-2750-4DB2-8D3D-AF53561E9DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A40587-1CC3-4A21-B737-23E598B3DBB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A40587-1CC3-4A21-B737-23E598B3DBB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A40587-1CC3-4A21-B737-23E598B3DBB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A40587-1CC3-4A21-B737-23E598B3DBB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830F8FC1-4927-4BE1-80BC-10DEF24313CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830F8FC1-4927-4BE1-80BC-10DEF24313CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830F8FC1-4927-4BE1-80BC-10DEF24313CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830F8FC1-4927-4BE1-80BC-10DEF24313CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D58B7CA-BE30-4D06-B318-EF21F7439339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D58B7CA-BE30-4D06-B318-EF21F7439339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D58B7CA-BE30-4D06-B318-EF21F7439339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D58B7CA-BE30-4D06-B318-EF21F7439339}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53D36012-F4E3-40EA-A561-EC5FDCCFF449}
+	EndGlobalSection
+EndGlobal
