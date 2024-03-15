@@ -31,7 +31,7 @@ namespace RadarFit.API.Controllers
         }
 
         [HttpGet]
-        [Route("id")]
+        [Route("{Id}")]
         public async Task<ActionResult<List<Object>>> GetById(int Id)
         {
             try
